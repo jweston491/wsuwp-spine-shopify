@@ -1,0 +1,139 @@
+blockquote,caption,cite,code,figcaption,figure,h1,h2,h3,h4,h5,h6,img,kbd,li,mark,ol,p,pre,samp,small,span,sub,sup,table,tbody,td,tfoot,th,thead,tr,u,ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+body {
+	color: #717171;
+	font: 14px/22px "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+	-webkit-font-smoothing: subpixel-antialiased !important;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.sans {
+	font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+}
+.serif {
+	font-family: "Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+}
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	line-height: 1.1em;
+	letter-spacing: 0;
+	font-weight: 700;
+	padding: .5em 0 .2em 0;
+}
+h1 {
+	font-size: 2rem;
+	padding-top: 0;
+}
+h2 {
+	font-size: 1.8rem;
+}
+h3 {
+	font-size: 1.6rem;
+}
+h4 {
+	font-size: 1.4rem;
+}
+h5 {
+	font-size: 1.2rem;
+}
+h6 {
+	font-size: 1rem;
+}
+ol,ul {
+	padding: 0 2em 1em 2em;
+}
+ol ol,ul ul {
+	padding-bottom: 0;
+}
+ol li,ul li {
+	padding: 0 0 .3em 0;
+	line-height: 1.4em;
+}
+ol li ol,ul li ul {
+	padding-top: .3em;
+}
+p {
+	margin: 0;
+	padding-bottom: 1em;
+}
+blockquote,ol,p~p,ul {
+	padding-bottom: 1em;
+}
+h1+ol,h1+ul,h2+ol,h2+ul,h3+ol,h3+ul,h4+ol,h4+ul,h5+ol,h5+ul,h6+ol,h6+ul {
+	padding-top: .3em;
+}
+blockquote {
+	padding-left: 1em;
+	padding-right: 1em;
+	font-family: "Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+}
+code,pre {
+	font-family: "Courier New",Courier,monospace;
+}
+big {
+	font-size: 1.5em;
+}
+small {
+	font-size: .8em;
+	line-height: .8em;
+}
+sub,sup {
+	font-size: .7em;
+	line-height: .7em;
+}
+sup {
+	vertical-align: super;
+	margin-top: -6px;
+}
+sub {
+	vertical-align: sub;
+}
+a {
+	text-decoration: none;
+	color: #981e32;
+}
+a:hover {
+	color: #c60c30;
+}
+b,strong {
+	font-weight: 700;
+}
+em,i {
+	font-style: italic;
+}
+hr {
+	border-width: 0;
+	border-style: solid;
+	border-color: #000;
+	margin: 1em 0;
+	height: 1px;
+	background-color: rgba(93,105,112,.5);
+	display: block;
+	clear: both;
+}
+img,
+figure {
+	max-width: 100%;
+	height: auto;
+}
+.alignleft {
+	float: left;
+	margin: 0 1em 1em 0;
+}
+.alignright {
+	float: right;
+	margin: 0 0 1em 1em;
+}
+.aligncenter {
+	display: block;
+	margin: 1em auto;
+}
+.wp-caption-dd {
+	padding: 5px 0;
+}
