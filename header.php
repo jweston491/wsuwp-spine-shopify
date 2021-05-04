@@ -46,4 +46,4 @@
 <?php get_template_part( 'parts/before-binder' ); ?>
 <div id="binder" class="<?php echo esc_attr( spine_get_option( 'grid_style' ) ); echo $spineless; echo esc_attr( spine_get_option( 'large_format' ) ); echo esc_attr( spine_get_option( 'broken_binding' ) ); ?>">
 <?php get_template_part( 'spine' ); ?>
-<?php get_template_part( 'parts/before-main' );
+<?php get_template_part( 'parts/headers' );

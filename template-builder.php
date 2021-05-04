@@ -14,7 +14,7 @@ get_header();
 
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-			<?php wsuwp_spine_get_template_part( 'page.php', 'parts/headers' ); ?>
+			
 			
 			<?php do_action( 'spine_theme_template_after_headers', 'page.php' ); ?>
 

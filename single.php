@@ -16,7 +16,7 @@ if ( spine_has_background_image() ) {
 
 <?php do_action( 'spine_theme_template_before_headers', 'single.php' ); ?>
 
-<?php wsuwp_spine_get_template_part( 'single.php', 'parts/headers' ); ?>
+
 
 <?php do_action( 'spine_theme_template_after_headers', 'single.php' ); ?>
 

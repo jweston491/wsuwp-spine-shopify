@@ -10,7 +10,7 @@
 
 <?php do_action( 'spine_theme_template_before_headers', 'halves.php' ); ?>
 
-<?php wsuwp_spine_get_template_part( 'halves.php', 'parts/headers' ); ?>
+
 
 <?php do_action( 'spine_theme_template_after_headers', 'halves.php' ); ?>
 

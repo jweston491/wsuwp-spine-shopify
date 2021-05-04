@@ -28,7 +28,7 @@ if ( is_home() ) {
 
 <?php do_action( 'spine_theme_template_before_headers', 'index.php' ); ?>
 
-<?php wsuwp_spine_get_template_part( 'index.php', 'parts/headers' ); ?>
+
 
 <?php do_action( 'spine_theme_template_after_headers', 'index.php' ); ?>
 

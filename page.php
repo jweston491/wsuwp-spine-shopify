@@ -6,8 +6,6 @@
 
 <?php do_action( 'spine_theme_template_before_headers', 'page.php' ); ?>
 
-<?php wsuwp_spine_get_template_part( 'page.php', 'parts/headers' ); ?>
-
 <?php do_action( 'spine_theme_template_after_headers', 'page.php' ); ?>
 
 <?php wsuwp_spine_get_template_part( 'page.php', 'parts/featured-images' ); ?>
