@@ -775,3 +775,25 @@ section.pad-ends > header {
 .not-single .type-document .article-header {
 	border-bottom: 1px rgba(127, 127, 127, .2) solid;
 }
+
+/** WP Shopify compatibility */
+
+#jacket #binder .wps-container {
+	padding-top: 1rem;
+}
+
+.wps-pagination-controls .wps-btn-next-page {
+   background-color: #8C2A35;
+}
+
+@media screen and (min-width:990px) {
+	#jacket #binder .wps-container  {
+		padding-left: calc(198px + 1em);
+	}
+	#spine {
+		position:fixed;
+	}
+	header.main-header {
+		margin-left: 198px
+	}
+}

@@ -4,10 +4,10 @@ Theme URI: https://github.com/washingtonstateuniversity/WSUWP-spine-parent-theme
 Author: WSU University Communications
 Author URI: https://web.wsu.edu/
 Description: Binding together the story of Washington State University.
-Version: 2.0.2
+Version: 1.0.1
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Tags: light, wsu
+Tags: light
 */
 
 html {
@@ -799,8 +799,25 @@ section.pad-ends > header {
 	border-bottom: 1px rgba(127, 127, 127, .2) solid;
 }
 
-#shelve:focus {
-    border: 1px solid #333;
+/** WP Shopify compatibility */
+
+#jacket #binder .wps-container {
+	padding-top: 1rem;
 }
 
+.wps-pagination-controls .wps-btn-next-page {
+   background-color: #8C2A35;
+}
+
+@media screen and (min-width:990px) {
+	#jacket #binder .wps-container  {
+		padding-left: calc(198px + 1em);
+	}
+	#spine {
+		position:fixed;
+	}
+	header.main-header {
+		margin-left: 198px
+	}
+}
 /*# sourceMappingURL=style.css.map */
